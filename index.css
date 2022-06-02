@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #303030;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    background-color: #505050;
+    border-radius: 100%;
+    background-image: url('./vyshakh.JPG');
+    background-size: cover;
+    box-shadow: 10px 10px 30px 0 #202020;
+}
+
+h1,h2,h3 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white; 
+}
+
+
